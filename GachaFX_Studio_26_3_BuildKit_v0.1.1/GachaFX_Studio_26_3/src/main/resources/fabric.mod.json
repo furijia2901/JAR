@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "gachafx",
+  "version": "${version}",
+  "name": "Gacha FX Studio",
+  "description": "Standalone 60-style gacha animation preview and integration facade for Minecraft 26.3",
+  "authors": ["World Journey development"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {"client": ["jp.worldjourney.gachafx.GachaFxClient"]},
+  "depends": {"fabricloader": ">=0.19.5", "minecraft": "~26.3", "java": ">=25", "fabric-api": "*"}
+}
